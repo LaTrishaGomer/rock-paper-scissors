@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+html, body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #b0dbdb;
+    background-image: url(/img/rps-background-2.jpg);
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ff5757;
+    font-size: 40px;
+  }
+  
+  #result-display {
+    font-family: "DM Sans", serif;
+    color: #231f20;
+  }
+
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    max-width: 50%;
+  }
+  
+  button {
+    background-color: transparent;
+    border: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+
+  #reset {
+    background-color: #b0dbdb;
+    color: white;
+    font-family: "DM Sans", serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    height: 57px;
+    border-radius: 28.5px;
+    padding: 4px 20px;
+    margin: ls0px 0px 0px 20px;
+  }
+  
+  #reset:hover {
+    background-color: #a4cece; 
+    color: white;
+  }
